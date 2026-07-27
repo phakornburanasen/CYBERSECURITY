@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #f8fafc;
+  --accent-color: #0f172a;
+  --danger-color: #dc2626;
+  --warning-color: #d97706;
+  --success-color: #16a34a;
+  --info-color: #0284c7;
+  --bg-dark: #ffffff;
+  --bg-darker: #f8fafc;
+  --card-bg: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --border-color: #e2e8f0;
+  --shadow-soft: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: #ffffff;
+  color: var(--text-primary);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.cyber-login-container {
+  position: relative;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.cyber-grid,
+.cyber-particles {
+  display: none;
+}
