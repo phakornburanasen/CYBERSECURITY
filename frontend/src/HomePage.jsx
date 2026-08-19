@@ -5,7 +5,7 @@ import * as XLSX from 'xlsx'
 import DatePicker from 'react-datepicker'
 import 'react-datepicker/dist/react-datepicker.css'
 import './HomePage.css'
-const API_URL = `http://${window.location.hostname}:5300`;
+const API_URL = `http://${window.location.hostname}:8000/api/CyberSecurity`;
 
 // --- Sub-component: Node Flow Map Visualizer (Top 30 Flows) ---
 function NodeFlowVisualizer({ filteredLogs, activeFilter }) {
